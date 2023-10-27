@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231022171720">
-  <link rel="stylesheet" href="css/style.min.css?_v=20231022171720">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231027112437">
+  <link rel="stylesheet" href="css/style.min.css?_v=20231027112437">
   <title>Контакты</title>
 </head>
 
@@ -451,7 +451,10 @@
 
 <section class="about__main about__main__container">
     <div class="about__main-left">
-        <picture><source srcset="../images/about-main1.webp" type="image/webp"><img src="../images/about-main1.png" alt=""></picture>
+        <picture>
+            <source srcset="../images/about-main-mb1.png" media="(max-width: 920px)">
+            <img src="../images/about-main1.png" alt="">
+        </picture>
         <div class="about__main-text">
             <h3 class="about__main-title">Учитываем ваши задачи. Можем поставить оборудование и материалы из наличия или под заказ</h3>
             <p class="about__main-subtitle">Работаем с 28 компаниями производителями и подбираем идеально соотношение цена-качество-наличие</p>
@@ -459,7 +462,10 @@
     </div>
     <div class="about__main-right">
         <div class="about__main-right__content">
-            <picture><source srcset="../images/about-main2.webp" type="image/webp"><img src="../images/about-main2.png" alt=""></picture>
+            <picture>
+                <source srcset="../images/about-main-mb2.png" media="(max-width: 920px)">
+                <img src="../images/about-main2.png" alt="">
+            </picture>
             <div class="about__main-text">
                 <h3 class="about__main-title">Обеспечиваем удобную логистику и используем электронный документооборот</h3>
                 <p class="about__main-subtitle">Снимаем с вас головную боль по доставке. Самостоятельно организуем доставку в пределах Москвы и МО.</p>
@@ -467,7 +473,10 @@
             </div>
         </div>
         <div class="about__main-right__content">
-            <picture><source srcset="../images/about-main3.webp" type="image/webp"><img src="../images/about-main3.png" alt=""></picture>
+            <picture>
+                <source srcset="../images/about-main-mb3.png" media="(max-width: 920px)">
+                <img src="../images/about-main3.png" alt="">
+            </picture>
             <div class="about__main-text">
                 <h3 class="about__main-title">Проведем техническую консультацию и поможем подобрать, то что нужно</h3>
                 <p class="about__main-subtitle">Проведем экспертную консультацию, изучим ваше ТЗ и подберем те позиции, которые помогут решить вашу задачу</p>
@@ -513,30 +522,111 @@
 
 
 <section class="about__reviews about__reviews__container">
-    <h2 class="about__reviews-title">Отзывы, рекомендации, проекты</h2>
-    <p class="about__reviews-subtitle">За 10 лет выполнили больше 1000 отгрузок для проектов по всей России</p>
-    <div class="about__reviews-slider">
-        <div class="about__reviews-wrapper">
-            <div class="about__reviews-slide">
-                <picture><source srcset="../images/r.webp" type="image/webp"><img src="../images/r.png" alt=""></picture>
-                <p class="about__reviews-text">Отзыв от генерального директора НПО «Машинострой»</p>
-                <p class="about__reviews-name">Иванова И.О</p>
-            </div>
+    <div class="about__reviews-header">
+        <div class="about__reviews-text-wrapper">    
+            <h2 class="about__reviews-title">Отзывы, рекомендации, проекты</h2>
+            <p class="about__reviews-subtitle">За 10 лет выполнили больше 1000 отгрузок для проектов по всей России</p>
+        </div>
+        <div class="about__reviews-btns">
+            <button class="swiper-button-prev about__reviews-btn-prev"></button>
+            <button class="swiper-button-next about__reviews-btn-next"></button>
         </div>
     </div>
+    <div class="about__reviews-slider slider">
+        <div class="about__reviews-wrapper slider__wrapper">
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>                    
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>                    
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+
+            <div class="about__reviews-slide slider__slide">
+                <picture><source srcset="images/r.webp" type="image/webp"><img src="images/r.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="about__reviews-btns-mb">
+            <button class="swiper-button-prev about__reviews-btn-prev"></button>
+            <button class="swiper-button-next about__reviews-btn-next"></button>
+        </div>
+    </div>
+    
 </section>
 
 
-<section class="about__gallery about__gallery__container">
+<section class="about__gallery__container about__galleryslider">
     <div class="about__gallery-main">
-        <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+        <div class="about__gallery-main-wrapper">
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag1.webp" type="image/webp"><img src="../images/ag1.png" alt=""></picture>
+            </div>
+        </div>
+        <div class="about__gallery-btns">
+            <button class="swiper-button-prev about__gallery-btn-prev"></button>
+            <button class="swiper-button-next about__gallery-btn-next"></button>
+        </div>
     </div>
     <div class="about__gallery-submain">
-        <picture><source srcset="../images/ag2.webp" type="image/webp"><img src="../images/ag2.png" alt=""></picture>
-        <picture><source srcset="../images/ag3.webp" type="image/webp"><img src="../images/ag3.png" alt=""></picture>
-        <picture><source srcset="../images/ag4.webp" type="image/webp"><img src="../images/ag4.png" alt=""></picture>
-        <picture><source srcset="../images/ag5.webp" type="image/webp"><img src="../images/ag5.png" alt=""></picture>
-    </div>
+        <div class="about__gallery-main-wrapper">
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag2.webp" type="image/webp"><img src="../images/ag2.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag3.webp" type="image/webp"><img src="../images/ag3.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag4.webp" type="image/webp"><img src="../images/ag4.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag5.webp" type="image/webp"><img src="../images/ag5.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag3.webp" type="image/webp"><img src="../images/ag3.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag2.webp" type="image/webp"><img src="../images/ag2.png" alt=""></picture>
+            </div>
+            <div class="about__gallery-main-slide">
+                <picture><source srcset="../images/ag3.webp" type="image/webp"><img src="../images/ag3.png" alt=""></picture>
+            </div>
+        </div>
+    </div> 
 </section>
 
 <section class="about__staff about__staff__container">
@@ -554,7 +644,24 @@
                     <a class="staff__slide-mail" href="mailto:mail@yandex.ru">mail@yandex.ru</a>
                 </div>
             </div>
-
+            <div class="about__staff-slide staff__slide">
+                <picture><source srcset="../images/as.webp" type="image/webp"><img src="../images/as.png" alt=""></picture>
+                <div class="staff__slide-content">
+                    <p class="staff__slide-name">Агафонов Евгений Михайлович</p>
+                    <span class="staff__slide-position">Директор</span>
+                    <a class="staff__slide-tel" href="tel:+7 (912) 123-45-67">+7 (912) 123-45-67</a>
+                    <a class="staff__slide-mail" href="mailto:mail@yandex.ru">mail@yandex.ru</a>
+                </div>
+            </div>           
+             <div class="about__staff-slide staff__slide">
+                <picture><source srcset="../images/as.webp" type="image/webp"><img src="../images/as.png" alt=""></picture>
+                <div class="staff__slide-content">
+                    <p class="staff__slide-name">Агафонов Евгений Михайлович</p>
+                    <span class="staff__slide-position">Директор</span>
+                    <a class="staff__slide-tel" href="tel:+7 (912) 123-45-67">+7 (912) 123-45-67</a>
+                    <a class="staff__slide-mail" href="mailto:mail@yandex.ru">mail@yandex.ru</a>
+                </div>
+            </div>
             <div class="about__staff-slide staff__slide">
                 <picture><source srcset="../images/as.webp" type="image/webp"><img src="../images/as.png" alt=""></picture>
                 <div class="staff__slide-content">
@@ -1268,9 +1375,9 @@
 
 
 
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU&_v=20231022171720"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20231022171720"></script>
-<script src="js/app.min.js?_v=20231022171720"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU&_v=20231027112437"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20231027112437"></script>
+<script src="js/app.min.js?_v=20231027112437"></script>
 
   </body>
 </html>
