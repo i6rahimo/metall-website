@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231103063620">
+  <link rel="stylesheet" href="css/style.min.css?_v=20231103063620">
 
   <title>Контакты</title>
 </head>
@@ -42,9 +42,9 @@
         <input type="" placeholder="Искать в каталоге">
       </div>
       <a href="tel:+79669372311" class="header__main-tel">+7 966 937-23-11</a>
-      <div class="header__cart-wrapper">
+      <div class="header__cart-wrapper" data-type="popup-4">
         <div class="header__main-cart" data-type="popup-4">
-          <span>7</span>
+          <span class="cart-quantity" data-type="popup-4">7</span>
         </div>
         <button class="header__burger icon-menu">
   <span></span>
@@ -67,7 +67,7 @@
         </a>
         <ul class="sub-menu__list">
           <li class="sub-menu__item">
-            <a href="#" class="menu__link sub-menu__link">
+            <a href="../catalog-filter.html" class="menu__link sub-menu__link">
               Сортовый прокат
               <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L4.2 5L1 9" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"/>
@@ -75,7 +75,7 @@
             </a>
           </li>
           <li class="sub-menu__item">
-            <a href="#" class="menu__link sub-menu__link">
+            <a href="../catalog-filter.html" class="menu__link sub-menu__link">
               Трубы
               <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L4.2 5L1 9" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"/>
@@ -83,7 +83,7 @@
             </a>
           </li>
           <li class="sub-menu__item">
-            <a href="#" class="menu__link sub-menu__link">
+            <a href="../catalog-filter.html" class="menu__link sub-menu__link">
               Метизы
               <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L4.2 5L1 9" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"/>
@@ -91,7 +91,7 @@
             </a>
           </li>
           <li class="sub-menu__item">
-            <a href="#" class="menu__link sub-menu__link">
+            <a href="../catalog-filter.html" class="menu__link sub-menu__link">
               Нержавеющая сталь
               <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L4.2 5L1 9" stroke="#181818" stroke-linecap="round" stroke-linejoin="round"/>
@@ -101,9 +101,7 @@
 
         </ul>
       </li>
-        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Акции и скидки</a></li>
+        <li class="menu__item"><a href="../shipment-page.html" class="menu__link">Отгрузки</a></li>
         <li class="menu__item"><a href="../reviews.html" class="menu__link">Отзывы и сертификаты</a></li>
         <li class="menu__item"><a href="../contact.html" class="menu__link">Контакты</a></li>
       </ul>
@@ -118,319 +116,7 @@
       </div>
     </nav>
   </div>
-  <div class="popup" data-popup="popup-1" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Получите расчет <br>
-                    <span class="orange__text">актуальных цен</span> на поставку</h2>
-                <h3 class="popup__body-subtitle">Подготовим расчет в ближайшее время</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-                    <label for="" class="popup__form-explain">
-                        <textarea class="popup__form-explain-input" placeholder="Опишите, что нужно и в каком объеме" name="" id=""></textarea>
-                    </label>
-                    <button class="btn popup__form-btn">
-                        Получить расчет цены
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="popup" data-popup="popup-2" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Получите прайс-лист</h2>
-                <h3 class="popup__body-subtitle">Вышлем актуальные материалы на почту в течение рабочего дня</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-                    <label for="" class="popup__form-label">
-                        Введите почту
-                        <input type="text" class="popup__form-input" placeholder="pochta@ya.ru">
-                    </label>
-                    <button class="btn popup__form-btn">
-                        Получить расчет цены
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="popup" data-popup="popup-3" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Перезвоним
-                    <span class="orange__text">в удобное время</span></h2>
-                <h3 class="popup__body-subtitle">Заполните форму, мы перезвоним в рабочее время и ответим на все вопросы</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-
-                    <button class="btn popup__form-btn">
-                        Перезвоните мне
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="popup" data-popup="popup-4" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content cart__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__cart">
-                <h2 class="popup__cart-title">Вы добавили в заявку:</h2>
-                <div class="popup__cart-wrapper">
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-                </div>
-                <div class="popup__cart-phone">
-                    <p>Если у вас есть срочный вопрос, <br> позвоните по телефону:</p>
-                    <a href="tel:+7 (495) 255-32-12">+7 (495) 255-32-12</a>
-                </div>
-            </div>
-
-            <div class="cart__form">
-                <div class="cart__form-wrapper">
-                    <h2 class="cart__form-title">Заполните форму, чтобы мы могли
-                        <span class="orange__text">получить заявку</span></h2>
-                    <h3 class="cart__form-subtitle">Вышлем вам несколько вариантов КП в течение 42 минут</h3>
-                    <form action="" class="popup__form">
-                        <label for="" class="popup__form-label">
-                            <input type="text" class="popup__form-input cart__form-input" placeholder="Укажите ИНН организации">
-                        </label>
-                        <label for="" class="popup__form-label">
-                            <input type="text" class="popup__form-input cart__form-input" placeholder="Укажите телефон для связи">
-                        </label>
-                        <button class="btn popup__form-btn cart__form-btn">
-                            Отправить заявку
-                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                        <p class="popup__form-politic cart__form-politic">
-                            Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                        </p>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<div class="popup filter__mobile-popup" data-popup="popup-5" data-close-overlay>
-    <div class="popup__wrapper filter__popup-wrapper" data-close-overlay>
-        <div class="filter__popup-content filter__popup__container">
-            <div class="filter__top">
-                <p class="filter__top-text">
-                    Фильтры
-                </p>
-                <button class="filter__top-close" data-close-overlay>
-                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
-                        <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
-                    </svg> 
-                </button>
-            </div>
-            <div class="filter__filter-mobile" class="popup" data-popup="popup-5" data-close-overlay>
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Производитель</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">ММК</button>
-                        <button class="filter__button">ЧМК</button>
-                        <button class="filter__button">Северсталь</button>
-                        <button class="filter__button">Мечел</button>
-                        <button class="filter__button">НМЛК</button>
-                        <button class="filter__button active">Борский трубный завод</button>
-                        <button class="filter__button">Евраз Холдинг</button>
-                      </div>
-                    </div>
-                </div>
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Тип изделия</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">Арматура рифленая (А3)</button>
-                        <button class="filter__button">Арматура гладкая (А1)</button>
-                        <button class="filter__button">Круг стальной</button>
-                      </div>
-                    </div>
-                </div>
-            
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Материал</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">35ГС</button>
-                        <button class="filter__button">25Г2С</button>
-                        <button class="filter__button">А500С</button>
-                        <button class="filter__button">А500СП</button>
-                        <button class="filter__button">А400С</button>
-                      </div>
-                    </div>
-                </div>
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Размер</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">6 мм</button>
-                        <button class="filter__button">8 мм</button>
-                        <button class="filter__button">10 мм</button>
-                        <button class="filter__button">12 мм</button>
-                        <button class="filter__button">14 мм</button>
-                        <button class="filter__button">16 мм</button>
-                      </div>
-                    </div>
-                </div>
-            
-            </div> 
-            <button class="btn filter__popup-btn">
-                Показать
-                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.66667 1.5L15.5 7.5M15.5 7.5L9.66667 13.5M15.5 7.5L1.5 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg> 
-            </button>
-        </div>
-    </div>
-</div>
-<!-- 
-<div class="filter__filter-mobile" class="popup" data-popup="popup-5" data-close-overlay>
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Производитель</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">ММК</button>
-            <button class="filter__button ">ЧМК</button>
-            <button class="filter__button ">Северсталь</button>
-            <button class="filter__button ">Мечел</button>
-            <button class="filter__button ">НМЛК</button>
-            <button class="filter__button active">Борский трубный завод</button>
-            <button class="filter__button ">Евраз Холдинг</button>
-          </div>
-        </div>
-    </div>
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Тип изделия</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">Арматура рифленая (А3)</button>
-            <button class="filter__button ">Арматура гладкая (А1)</button>
-            <button class="filter__button ">Круг стальной</button>
-          </div>
-        </div>
-    </div>
-
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Материал</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">35ГС</button>
-            <button class="filter__button ">25Г2С</button>
-            <button class="filter__button ">А500С</button>
-            <button class="filter__button ">А500СП</button>
-            <button class="filter__button ">А400С</button>
-          </div>
-        </div>
-    </div>
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Размер</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">6 мм</button>
-            <button class="filter__button ">8 мм</button>
-            <button class="filter__button ">10 мм</button>
-            <button class="filter__button ">12 мм</button>
-            <button class="filter__button ">14 мм</button>
-            <button class="filter__button ">16 мм</button>
-          </div>
-        </div>
-    </div>
-
-</div> -->
+  
   
 </header>
 <div class="header__mb">
@@ -478,16 +164,10 @@
             <a class="header__mb-link" href="../contact.html">Контакты</a>
           </li>
           <li class="header__mb-item">
-            <a class="header__mb-link" href="#">Услуги</a>
+            <a class="header__mb-link" href="../shipment-page.html">Отгрузки</a>
           </li>
           <li class="header__mb-item">
-            <a class="header__mb-link" href="#">Акции</a>
-          </li>
-          <li class="header__mb-item">
-            <a class="header__mb-link" href="#">Новостит</a>
-          </li>
-          <li class="header__mb-item">
-            <a class="header__mb-link" href="#">Документация</a>
+            <a class="header__mb-link" href="../about-page.html">О компании</a>
           </li>
         </ul>
       </div>
@@ -619,7 +299,7 @@
                     <div class="contact__map">
                         <div class="contact__map">
                             <div id="map-test" class="map"></div>
-                            <!-- <img src="../images/map.png" alt=""> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -651,11 +331,20 @@
           <div class="footer__col footer__customers">
             <h3 class="footer__col-title">Покупателям</h3>
             <div class="footer__customers-links">
-              <a href="#" class="footer__title footer__customers-link">Контакты</a>
-              <a href="#" class="footer__title footer__customers-link">Услуги</a>
-              <a href="#" class="footer__title footer__customers-link">Акции</a>
-              <a href="#" class="footer__title footer__customers-link">Новости</a>
-              <a href="#" class="footer__title footer__customers-link">Документация</a>
+              <ul class="header__mb-list">
+                <li class="header__mb-item">
+                  <a class="header__mb-link" href="../contact.html">Контакты</a>
+                </li>
+                <li class="header__mb-item">
+                  <a class="header__mb-link" href="../catalog.html">Каталог</a>
+                </li>
+                <li class="header__mb-item">
+                  <a class="header__mb-link" href="../shipment-page.html">Отгрузки</a>
+                </li>
+                <li class="header__mb-item">
+                  <a class="header__mb-link" href="../reviews.html">Отзывы и сертификаты</a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="footer__col">
@@ -735,28 +424,28 @@
             <p>Станки</p>
             <ul class="header__mb-list">
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Трубы нержавеющие</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Трубы нержавеющие</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Сортовой прокат</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Сортовой прокат</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Лента и рулоны</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Лента и рулоны</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Листовой прокат</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Листовой прокат</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Трубы электросварные</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Трубы электросварные</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Профлист</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Профлист</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Сетка сварная</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Сетка сварная</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Композитная арматура</a>
+                <a class="header__mb-link" href="../catalog-filter.html">Композитная арматура</a>
               </li>
             </ul>
           </div>
@@ -764,19 +453,16 @@
             <p>Покупателям</p>
             <ul class="header__mb-list">
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Контакты</a>
+                <a class="header__mb-link" href="../contact.html">Контакты</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Услуги</a>
+                <a class="header__mb-link" href="../catalog.html">Каталог</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Акции</a>
+                <a class="header__mb-link" href="../shipment-page.html">Отгрузки</a>
               </li>
               <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Новостит</a>
-              </li>
-              <li class="header__mb-item">
-                <a class="header__mb-link" href="#">Документация</a>
+                <a class="header__mb-link" href="../reviews.html">Отзывы и сертификаты</a>
               </li>
             </ul>
           </div>
@@ -828,327 +514,21 @@
     </div>
     
   </div>
-  <div class="popup" data-popup="popup-1" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Получите расчет <br>
-                    <span class="orange__text">актуальных цен</span> на поставку</h2>
-                <h3 class="popup__body-subtitle">Подготовим расчет в ближайшее время</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-                    <label for="" class="popup__form-explain">
-                        <textarea class="popup__form-explain-input" placeholder="Опишите, что нужно и в каком объеме" name="" id=""></textarea>
-                    </label>
-                    <button class="btn popup__form-btn">
-                        Получить расчет цены
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="popup" data-popup="popup-2" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Получите прайс-лист</h2>
-                <h3 class="popup__body-subtitle">Вышлем актуальные материалы на почту в течение рабочего дня</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-                    <label for="" class="popup__form-label">
-                        Введите почту
-                        <input type="text" class="popup__form-input" placeholder="pochta@ya.ru">
-                    </label>
-                    <button class="btn popup__form-btn">
-                        Получить расчет цены
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="popup" data-popup="popup-3" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__body">
-                <h2 class="popup__body-title">Перезвоним
-                    <span class="orange__text">в удобное время</span></h2>
-                <h3 class="popup__body-subtitle">Заполните форму, мы перезвоним в рабочее время и ответим на все вопросы</h3>
-                <form action="" class="popup__form">
-                    <label for="" class="popup__form-label">
-                        Введите номер телефона
-                        <input type="text" class="popup__form-input" placeholder="+7 (900) 000-00-00">
-                    </label>
-
-                    <button class="btn popup__form-btn">
-                        Перезвоните мне
-                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-                    </button>
-                    <p class="popup__form-politic">
-                        Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="popup" data-popup="popup-4" data-close-overlay>
-    <div class="popup__wrapper" data-close-overlay>
-        <div class="popup__content cart__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
-            <div class="popup__cart">
-                <h2 class="popup__cart-title">Вы добавили в заявку:</h2>
-                <div class="popup__cart-wrapper">
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-                </div>
-                <div class="popup__cart-phone">
-                    <p>Если у вас есть срочный вопрос, <br> позвоните по телефону:</p>
-                    <a href="tel:+7 (495) 255-32-12">+7 (495) 255-32-12</a>
-                </div>
-            </div>
-
-            <div class="cart__form">
-                <div class="cart__form-wrapper">
-                    <h2 class="cart__form-title">Заполните форму, чтобы мы могли
-                        <span class="orange__text">получить заявку</span></h2>
-                    <h3 class="cart__form-subtitle">Вышлем вам несколько вариантов КП в течение 42 минут</h3>
-                    <form action="" class="popup__form">
-                        <label for="" class="popup__form-label">
-                            <input type="text" class="popup__form-input cart__form-input" placeholder="Укажите ИНН организации">
-                        </label>
-                        <label for="" class="popup__form-label">
-                            <input type="text" class="popup__form-input cart__form-input" placeholder="Укажите телефон для связи">
-                        </label>
-                        <button class="btn popup__form-btn cart__form-btn">
-                            Отправить заявку
-                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.66667 1L15.5 7M15.5 7L9.66667 13M15.5 7L1.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                        <p class="popup__form-politic cart__form-politic">
-                            Нажимая на кнопку, вы даёте согласие на обработку персональных данных в соответствии <a href="#">с Политикой конфиденциальности</a>
-                        </p>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<div class="popup filter__mobile-popup" data-popup="popup-5" data-close-overlay>
-    <div class="popup__wrapper filter__popup-wrapper" data-close-overlay>
-        <div class="filter__popup-content filter__popup__container">
-            <div class="filter__top">
-                <p class="filter__top-text">
-                    Фильтры
-                </p>
-                <button class="filter__top-close" data-close-overlay>
-                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
-                        <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
-                    </svg> 
-                </button>
-            </div>
-            <div class="filter__filter-mobile" class="popup" data-popup="popup-5" data-close-overlay>
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Производитель</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">ММК</button>
-                        <button class="filter__button">ЧМК</button>
-                        <button class="filter__button">Северсталь</button>
-                        <button class="filter__button">Мечел</button>
-                        <button class="filter__button">НМЛК</button>
-                        <button class="filter__button active">Борский трубный завод</button>
-                        <button class="filter__button">Евраз Холдинг</button>
-                      </div>
-                    </div>
-                </div>
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Тип изделия</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">Арматура рифленая (А3)</button>
-                        <button class="filter__button">Арматура гладкая (А1)</button>
-                        <button class="filter__button">Круг стальной</button>
-                      </div>
-                    </div>
-                </div>
-            
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Материал</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">35ГС</button>
-                        <button class="filter__button">25Г2С</button>
-                        <button class="filter__button">А500С</button>
-                        <button class="filter__button">А500СП</button>
-                        <button class="filter__button">А400С</button>
-                      </div>
-                    </div>
-                </div>
-            
-                <div class="accordion filter__accordion filter__popup-accordion">
-                    <div class="accordion__item filter__item">
-                      <div class="accordion__header filter__header">Размер</div>
-                      <div class="accordion__content filter__content">
-                        <button class="filter__button">6 мм</button>
-                        <button class="filter__button">8 мм</button>
-                        <button class="filter__button">10 мм</button>
-                        <button class="filter__button">12 мм</button>
-                        <button class="filter__button">14 мм</button>
-                        <button class="filter__button">16 мм</button>
-                      </div>
-                    </div>
-                </div>
-            
-            </div> 
-            <button class="btn filter__popup-btn">
-                Показать
-                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.66667 1.5L15.5 7.5M15.5 7.5L9.66667 13.5M15.5 7.5L1.5 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg> 
-            </button>
-        </div>
-    </div>
-</div>
-<!-- 
-<div class="filter__filter-mobile" class="popup" data-popup="popup-5" data-close-overlay>
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Производитель</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">ММК</button>
-            <button class="filter__button ">ЧМК</button>
-            <button class="filter__button ">Северсталь</button>
-            <button class="filter__button ">Мечел</button>
-            <button class="filter__button ">НМЛК</button>
-            <button class="filter__button active">Борский трубный завод</button>
-            <button class="filter__button ">Евраз Холдинг</button>
-          </div>
-        </div>
-    </div>
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Тип изделия</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">Арматура рифленая (А3)</button>
-            <button class="filter__button ">Арматура гладкая (А1)</button>
-            <button class="filter__button ">Круг стальной</button>
-          </div>
-        </div>
-    </div>
-
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Материал</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">35ГС</button>
-            <button class="filter__button ">25Г2С</button>
-            <button class="filter__button ">А500С</button>
-            <button class="filter__button ">А500СП</button>
-            <button class="filter__button ">А400С</button>
-          </div>
-        </div>
-    </div>
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Размер</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">6 мм</button>
-            <button class="filter__button ">8 мм</button>
-            <button class="filter__button ">10 мм</button>
-            <button class="filter__button ">12 мм</button>
-            <button class="filter__button ">14 мм</button>
-            <button class="filter__button ">16 мм</button>
-          </div>
-        </div>
-    </div>
-
-</div> -->
+  
 
 </footer>
     </div>
 
     <div class="popup" data-popup="popup-1" data-close-overlay>
     <div class="popup__wrapper" data-close-overlay>
+        <div class="poup__content-close">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
+                <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
+            </svg> 
+        </div>
         <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
+            
             <div class="popup__body">
                 <h2 class="popup__body-title">Получите расчет <br>
                     <span class="orange__text">актуальных цен</span> на поставку</h2>
@@ -1180,8 +560,14 @@
 
 <div class="popup" data-popup="popup-2" data-close-overlay>
     <div class="popup__wrapper" data-close-overlay>
+        <div class="poup__content-close">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
+                <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
+            </svg> 
+        </div>
         <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
+            
             <div class="popup__body">
                 <h2 class="popup__body-title">Получите прайс-лист</h2>
                 <h3 class="popup__body-subtitle">Вышлем актуальные материалы на почту в течение рабочего дня</h3>
@@ -1213,8 +599,14 @@
 
 <div class="popup" data-popup="popup-3" data-close-overlay>
     <div class="popup__wrapper" data-close-overlay>
+        <div class="poup__content-close">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
+                <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
+            </svg> 
+        </div>
         <div class="popup__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
+            
             <div class="popup__body">
                 <h2 class="popup__body-title">Перезвоним
                     <span class="orange__text">в удобное время</span></h2>
@@ -1243,47 +635,18 @@
 
 <div class="popup" data-popup="popup-4" data-close-overlay>
     <div class="popup__wrapper" data-close-overlay>
+        <div class="poup__content-close">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="45" height="45" rx="22.5" fill="#F1F1F1"/>
+                <path d="M29 16L17 28M29 28L17 16" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
+            </svg> 
+        </div>
         <div class="popup__content cart__content">
-            <!-- <button class="popup__close button-close" type="button">x</button> -->
+            
             <div class="popup__cart">
                 <h2 class="popup__cart-title">Вы добавили в заявку:</h2>
                 <div class="popup__cart-wrapper">
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
-
-
-                    <div class="popup__cart-product">
-                        <div class="popup__cart-text">
-                            <span class="popup__cart-number">№1.</span>
-                            <p class="popup__cart-name">Арматура А500с 6 мм сталь 3 ТУ 14-1-5254-94 10 тн</p>
-                        </div>
-                        <button class="popup__cart-btn">
-                            <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 5.02941H20M8.125 16.7941V9.73529M12.875 16.7941V9.73529M15.25 21.5H5.75C4.43832 21.5 3.375 20.4466 3.375 19.1471V6.20588C3.375 5.55614 3.90666 5.02941 4.5625 5.02941H16.4375C17.0933 5.02941 17.625 5.55614 17.625 6.20588V19.1471C17.625 20.4466 16.5617 21.5 15.25 21.5ZM8.125 5.02941H12.875C13.5308 5.02941 14.0625 4.50269 14.0625 3.85294V2.67647C14.0625 2.02672 13.5308 1.5 12.875 1.5H8.125C7.46916 1.5 6.9375 2.02672 6.9375 2.67647V3.85294C6.9375 4.50269 7.46916 5.02941 8.125 5.02941Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        </button>
-                    </div>
+                     
 
                 </div>
                 <div class="popup__cart-phone">
@@ -1401,65 +764,11 @@
         </div>
     </div>
 </div>
-<!-- 
-<div class="filter__filter-mobile" class="popup" data-popup="popup-5" data-close-overlay>
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Производитель</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">ММК</button>
-            <button class="filter__button ">ЧМК</button>
-            <button class="filter__button ">Северсталь</button>
-            <button class="filter__button ">Мечел</button>
-            <button class="filter__button ">НМЛК</button>
-            <button class="filter__button active">Борский трубный завод</button>
-            <button class="filter__button ">Евраз Холдинг</button>
-          </div>
-        </div>
-    </div>
 
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Тип изделия</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">Арматура рифленая (А3)</button>
-            <button class="filter__button ">Арматура гладкая (А1)</button>
-            <button class="filter__button ">Круг стальной</button>
-          </div>
-        </div>
-    </div>
+    
 
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Материал</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">35ГС</button>
-            <button class="filter__button ">25Г2С</button>
-            <button class="filter__button ">А500С</button>
-            <button class="filter__button ">А500СП</button>
-            <button class="filter__button ">А400С</button>
-          </div>
-        </div>
-    </div>
-
-    <div class="filter__accordion accordion">
-        <div class="filter__item accordion__item">
-          <div class="filter__header accordion__header">Размер</div>
-          <div class="filter__content accordion__content">
-            <button class="filter__button ">6 мм</button>
-            <button class="filter__button ">8 мм</button>
-            <button class="filter__button ">10 мм</button>
-            <button class="filter__button ">12 мм</button>
-            <button class="filter__button ">14 мм</button>
-            <button class="filter__button ">16 мм</button>
-          </div>
-        </div>
-    </div>
-
-</div> -->
-    <script src="https://api-maps.yandex.ru/2.1?lang=ru_RU&csp[data_style]=true&apikey=<API-ключ>"></script>
-<script src="js/app.min.js" defer="defer"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=219900f2-3b4a-4a4a-9261-a6bbd16dd8bc&lang=ru_RU&_v=20231103063620"></script>
+<script src="js/app.min.js?_v=20231103063620" defer="defer"></script>
 
   </body>
 </html>
